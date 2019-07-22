@@ -4,6 +4,8 @@ This repo focuses on **readability and ease of use**. It doesn't match the origi
 The project has been developed on Ubuntu 16.04 and also tested on Mac Sierra. Works on Python 3.5 & Pytorch version 1.1.
 Contributions are welcome :) Just make sure that your code is 2-space indented & neat.
 
+The project is currently not under devolopment but feel free to reach out through the issues / email if you'd like me to help implement a specific feature.
+
 ### Supports
 * Training & validation on custom datasets
 * Easy to use input parameters 
@@ -12,11 +14,8 @@ Contributions are welcome :) Just make sure that your code is 2-space indented &
 * Inference - List of images
 * More... ;)
 
-TODO: Add some images of outputs + visdom view.
-
-# Table of Contents
-{{TOC}}
-
+![Validation visualization view](readme_assets/visdom1.png)
+![Customize your own](readme_assets/visdom2.png)
 
 # Installation
 * Install Pytorch, instructions on their [website](https://pytorch.org/). GPU version is strongly recommended but not required. Just slow without GPU.
@@ -113,5 +112,3 @@ Do you want to see an improvement that is not in this list? Add it to this link 
 * Script that can convert labels to our format or handle different formats in the program
 * Data augmentation. Preferably so one can create their own augmentation pipelines. Have the normal YOLO as default.
 * Inference on Webcam & Video file
-
-

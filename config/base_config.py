@@ -141,8 +141,6 @@ class Fruits(DefaultConfig):
     super().__init__(config_str)
     self.validations = ['fruits_train', 'fruits_val']
     self.optim_steps = 1e4
-    self.validation_frequency = 1
-    # self.validation_frequency = 50
+    self.validation_frequency = 50
     self.skip_last = True
     self.batch_size = 8
-    self.data_read_threads = 0
