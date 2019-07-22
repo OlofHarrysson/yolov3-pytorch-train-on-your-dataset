@@ -14,6 +14,7 @@ The project is currently not under devolopment but feel free to reach out throug
 * Inference - List of images
 * More... ;)
 
+# Log data and visualize
 ![Validation visualization view](readme_assets/visdom1.png)
 ![Customize your own](readme_assets/visdom2.png)
 
